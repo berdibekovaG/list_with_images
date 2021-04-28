@@ -63,14 +63,13 @@ class _MainScreenState extends State<MainScreen> {
             children: [
               Container(
                 width: double.infinity,
-                margin:
-                    const EdgeInsets.symmetric(horizontal: 10, vertical: 10),
+                margin: const EdgeInsets.symmetric(horizontal: 10, vertical: 10),
                 child: photo,
               ),
               Positioned(
                 top: 0,
                 right: 0,
-                child: Card(child: FavouriteWidget()),
+                child: FavouriteWidget(),
               ),
             ],
           ),
